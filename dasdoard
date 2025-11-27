@@ -1,0 +1,156 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web | Portofolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Portofolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main class="content">
+        <section class="hero">
+          <img src="online.png" alt="" />
+          <div class="hero-content">
+            <h1>Profesi</h1>
+            <br />
+            <h2>Junior Content Writer at Dicoding</h2>
+            <br /><br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore
+              assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt
+              inventore perspiciatis debitis doloribus ullam minima culpa voluptatem. Repellendus,
+              option.
+            </p>
+            <a href="" class="action-btn">Profile Saya</a>
+          </div>
+        </section>
+      </main>
+      <div class="footer">
+        <footer>
+          <ul>
+            <li>
+              <img src="instagram.png" alt="" /><a><p>Instagram</p></a>
+            </li>
+            <li>
+              <img src="facebook.png" alt="" /><a><p>Facebook</p></a>
+            </li>
+            <li>
+              <img src="twitter.png" alt="" /><a><p>Twitter</p></a>
+            </li>
+            <li>
+              <img src="telegram.png" alt="" /><a><p>Telegram</p></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Dashboard Sederhana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+    }
+    .sidebar {
+      height: 100vh;
+      width: 220px;
+      position: fixed;
+      background-color: #34495e;
+      color: #fff;
+      padding-top: 30px;
+    }
+    .sidebar h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 600;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar ul li {
+      margin: 20px 0;
+      padding: 10px 30px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .sidebar ul li:hover {
+      background-color: #2c3e50;
+    }
+    .main-content {
+      margin-left: 220px;
+      padding: 40px;
+    }
+    .cards {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      flex: 1;
+      text-align: center;
+    }
+    .card h3 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      color: #34495e;
+    }
+    .card p {
+      margin: 0;
+      font-size: 32px;
+      font-weight: bold;
+      color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Persebaya surabaya</h2>
+    <ul>
+      <li>Beranda</li>
+      <li>Statistik</li>
+      <li>Pengguna</li>
+      <li>Pengaturan</li>
+      <li>Keluar</li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <h1>Selamat Datang di Dashboard</h1>
+    <div class="cards">
+      <div class="card">
+        <h3>Pengguna Aktif</h3>
+        <p>120</p>
+      </div>
+      <div class="card">
+        <h3>Pesanan Baru</h3>
+        <p>75</p>
+      </div>
+      <div class="card">
+        <h3>Pendapatan</h3>
+        <p>Rp2.350.000</p>
+      </div>
+    </div>
+    <!-- Tambah konten lainnya di sini -->
+  </div>
+</body>
+</html>
